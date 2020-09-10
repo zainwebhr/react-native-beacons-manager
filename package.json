@@ -1,7 +1,59 @@
 {
-  "name": "react-native-beacons-manager",
-  "version": "1.1.0",
+  "_args": [
+    [
+      "git://github.com/MacKentoch/react-native-beacons-manager.git#53c1bda",
+      "/Volumes/Data/ReactNative/WebHR_Mobile"
+    ]
+  ],
+  "_from": "git://github.com/MacKentoch/react-native-beacons-manager.git#53c1bda",
+  "_id": "react-native-beacons-manager@git://github.com/MacKentoch/react-native-beacons-manager.git#53c1bda81f032e775f29327a7bab28a14528cf39",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-beacons-manager",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git://github.com/MacKentoch/react-native-beacons-manager.git#53c1bda",
+    "rawSpec": "git://github.com/MacKentoch/react-native-beacons-manager.git#53c1bda",
+    "saveSpec": "git://github.com/MacKentoch/react-native-beacons-manager.git#53c1bda",
+    "fetchSpec": "git://github.com/MacKentoch/react-native-beacons-manager.git",
+    "gitCommittish": "53c1bda"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/MacKentoch/react-native-beacons-manager.git#53c1bda81f032e775f29327a7bab28a14528cf39",
+  "_spec": "git://github.com/MacKentoch/react-native-beacons-manager.git#53c1bda",
+  "_where": "/Volumes/Data/ReactNative/WebHR_Mobile",
+  "author": {
+    "name": "Erwan DATIN",
+    "url": "http://www.erwan-datin.com"
+  },
+  "bugs": {
+    "url": "https://github.com/MacKentoch/react-native-beacons-manager/issues"
+  },
   "description": "React-Native library for detecting beacons (iOS and Android)",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-react": "^7.2.0",
+    "eslint-plugin-react-native": "^3.0.1",
+    "flow-bin": "^0.85.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.4.2",
+    "react-native": "^0.41.2"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "engines": {
+    "node": ">=8.9.0",
+    "npm": ">=5.3.0",
+    "yarn": ">=1.5.1"
+  },
+  "homepage": "https://github.com/MacKentoch/react-native-beacons-manager#readme",
   "keywords": [
     "react-native",
     "react-component",
@@ -16,50 +68,26 @@
     "eddystone",
     "altbeacons"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-beacons-manager",
+  "nativePackage": true,
+  "peerDependencies": {
+    "react": ">=15.4.2",
+    "react-native": ">=0.41.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MacKentoch/react-native-beacons-manager.git"
   },
+  "scripts": {
+    "flow": "flow",
+    "flow-typed": "flow-typed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "typings/react-native-beacons-manager.d.ts",
   "typescript": {
     "definition": "typings/react-native-beacons-manager.d.ts"
   },
-  "types": "typings/react-native-beacons-manager.d.ts",
-  "bugs": {
-    "url": "https://github.com/MacKentoch/react-native-beacons-manager/issues"
-  },
-  "homepage": "https://github.com/MacKentoch/react-native-beacons-manager#readme",
-  "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "lib": "lib"
-  },
-  "engines": {
-    "node": ">=8.9.0",
-    "npm": ">=5.3.0",
-    "yarn": ">=1.5.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "flow": "node_modules/.bin/flow",
-    "flow-typed": "node_modules/.bin/flow-typed"
-  },
-  "author": "Erwan DATIN (http://www.erwan-datin.com)",
-  "license": "MIT",
-  "nativePackage": true,
-  "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.4.1",
-    "eslint-plugin-flowtype": "^2.35.0",
-    "eslint-plugin-react": "^7.2.0",
-    "eslint-plugin-react-native": "^3.0.1",
-    "flow-bin": "^0.85.0",
-    "prop-types": "^15.5.10",
-    "react": "^15.4.2",
-    "react-native": "^0.61.5"
-  },
-  "peerDependencies": {
-    "react": ">=15.4.2",
-    "react-native": ">=0.41.2"
-  }
+  "version": "1.1.0"
 }

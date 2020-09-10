@@ -23,10 +23,6 @@ declare module 'react-native-beacons-manager' {
 
     requestWhenInUseAuthorization(): void;
 
-    allowsBackgroundLocationUpdates(
-      allow: boolean
-    ): void;
-
     getAuthorizationStatus(
       callback: (status: AuthorizationStatus) => any
     ): any;
@@ -145,10 +141,6 @@ declare module 'react-native-beacons-manager' {
         uuid?: string
       }
     ): Promise<any>;
-
-    requestStateForRegion(
-      region: BeaconRegion
-    ): void;
   }
 
   const beacons: Beacons;
